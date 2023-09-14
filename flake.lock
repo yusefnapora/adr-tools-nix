@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "adr-tools-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1585561190,
+        "narHash": "sha256-sq/rMj7iz2anmQgVkThSvE2pWbO/KtqFSY/TMeysZr0=",
+        "owner": "npryce",
+        "repo": "adr-tools",
+        "rev": "b3279baf9be2207d1a4f4bbd608fd0b591c72aee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "npryce",
+        "repo": "adr-tools",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1693377291,
+        "narHash": "sha256-vYGY9bnqEeIncNarDZYhm6KdLKgXMS+HA2mTRaWEc80=",
+        "path": "/nix/store/jfji1id0l3xxy8mgph757dwyngsjaamr-source",
+        "rev": "e7f38be3775bab9659575f192ece011c033655f0",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "adr-tools-src": "adr-tools-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
