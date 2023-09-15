@@ -39,11 +39,11 @@ Add as an input to another flake:
 Then you can add the package to your nixos system with:
 
 ```nix
-  environment.systemPackages = [ inputs.adr-tools ];
+  environment.systemPackages = [ inputs.adr-tools.packages.${system}.adr-tools ];
 ```
 
 or using home-manager:
 
 ```nix
-  home.packages = [ inputs.adr-tools ];
+  home.packages = [ inputs.adr-tools.packages.${system}.adr-tools ];
 ```
